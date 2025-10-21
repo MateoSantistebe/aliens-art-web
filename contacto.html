@@ -31,52 +31,60 @@
             <div class="grid-container">
                 <h2 class="section-title">CONTACTO</h2>
                 
-                <div class="contact-container">
-                    <div class="contact-info">
-                        <h3 class="neon-text">INFORMACIÓN DE CONTACTO</h3>
-                        <p class="terminal-text"><b>Dirección:</b> Buenos Aires, Argentina. La Paternal, el barrio con más aguante.</p>
-                        <p class="terminal-text"><b>Email:</b> info@aliensart.com</p>
-                        <p class="terminal-text"><b>Teléfono:</b> +34 600 123 456</p>
-                        
-                        <h3 class="neon-text">HORARIO</h3>
-                        <p class="terminal-text">Lunes a Viernes: 10:00 - 19:00</p>
-                        <p class="terminal-text">Sábados: 11:00 - 15:00</p>
-                        <p class="terminal-text">Domingos: Cerrado</p>
-                        
-                        <h3 class="neon-text">REDES SOCIALES</h3>
-                        <div class="social-links">
-                            <a href="https://instagram.com" target="_blank">INSTAGRAM</a>
-                            <a href="https://twitter.com" target="_blank">TWITTER</a>
-                            <a href="https://youtube.com" target="_blank">YOUTUBE</a>
-                            <a href="https://facebook.com" target="_blank">FACEBOOK</a>
+                <!-- Formulario de contacto primero -->
+                <div class="contact-form-section">
+                    <h3 class="neon-text">ENVÍANOS UN MENSAJE</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">NOMBRE</label>
+                            <input type="text" id="nombre" class="form-control" required>
                         </div>
-                    </div>
-                    
-                    <div class="contact-form-container">
-                        <h3 class="neon-text">ENVÍANOS UN MENSAJE</h3>
-                        <form class="contact-form">
-                            <div class="form-group">
-                                <label for="nombre">NOMBRE</label>
-                                <input type="text" id="nombre" class="form-control" required>
+                        
+                        <div class="form-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="asunto">ASUNTO</label>
+                            <input type="text" id="asunto" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensaje">MENSAJE</label>
+                            <textarea id="mensaje" class="form-control" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">ENVIAR MENSAJE</button>
+                    </form>
+                </div>
+                
+                <!-- Información de contacto después -->
+                <div class="contact-info-section">
+                    <div class="contact-info-grid">
+                        <div class="contact-info-item">
+                            <h3 class="neon-text">INFORMACIÓN DE CONTACTO</h3>
+                            <p class="terminal-text"><b>Dirección:</b> Buenos Aires, Argentina. La Paternal, el barrio con más aguante.</p>
+                            <p class="terminal-text"><b>Email:</b> info@aliensart.com</p>
+                            <p class="terminal-text"><b>Teléfono:</b> +34 600 123 456</p>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <h3 class="neon-text">HORARIO</h3>
+                            <p class="terminal-text">Lunes a Viernes: 10:00 - 19:00</p>
+                            <p class="terminal-text">Sábados: 11:00 - 15:00</p>
+                            <p class="terminal-text">Domingos: Cerrado</p>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <h3 class="neon-text">REDES SOCIALES</h3>
+                            <div class="social-links">
+                                <a href="https://instagram.com" target="_blank">INSTAGRAM</a>
+                                <a href="https://twitter.com" target="_blank">TWITTER</a>
+                                <a href="https://youtube.com" target="_blank">YOUTUBE</a>
+                                <a href="https://facebook.com" target="_blank">FACEBOOK</a>
                             </div>
-                            
-                            <div class="form-group">
-                                <label for="email">EMAIL</label>
-                                <input type="email" id="email" class="form-control" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="asunto">ASUNTO</label>
-                                <input type="text" id="asunto" class="form-control" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="mensaje">MENSAJE</label>
-                                <textarea id="mensaje" class="form-control" rows="5" required></textarea>
-                            </div>
-                            
-                            <button type="submit" class="submit-btn">ENVIAR MENSAJE</button>
-                        </form>
+                        </div>
                     </div>
                 </div>
                 
